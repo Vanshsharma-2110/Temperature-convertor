@@ -14,7 +14,8 @@ body {
 #main {
     background-color: rgba(245, 222, 179, 0.945);
     text-align: center;
-    width: 45%;
+    width: 100%;
+    max-width: 420px;
     height: fit-content;
     border-radius: 15px;
     padding: 20px
@@ -86,4 +87,5 @@ body {
 
 input[type="radio"] {
     transform: scale(1.5);
+
 }
