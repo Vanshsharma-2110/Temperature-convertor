@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="prac2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form id="main">
+            <h2>Temperature conversion:</h2>
+            <input type="number" id="textbox" value="0">
+            <br>
+
+            <input type="radio" id="to_f" name="temp_type">
+            <label id="f" for="to_f"> Celcius ➡️ Fahrenheit </label>
+            <br>
+            <input type="radio" id="to_c" name="temp_type">
+            <label id="c" for="to_c">Fahrenheit ➡️ Celcius</label>
+            <br>
+            <button type="button" id="btn">Convert</button>
+            <br>
+            <div class="p_result">
+                <div class="c_result">
+                    <p id="result"></p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="prac2.js"></script>
+</body>
+
+</html>
