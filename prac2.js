@@ -31,3 +31,11 @@ function truncDecimals(num, places) {
   const factor = 10 ** places;
   return Math.trunc(num * factor) / factor;
 }
+
+btn.addEventListener("mouseover", function () {
+    btn.style.backgroundColor = "#bc180da0";
+})
+
+btn.addEventListener("mouseout", function () {
+    btn.style.backgroundColor = "";
+});
